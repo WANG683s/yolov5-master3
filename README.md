@@ -9,20 +9,21 @@ This paper uses the Yolov5 model to detect water level conditions. By integratin
 
 See the [YOLOv5 Docs](https://docs.ultralytics.com/yolov5) for full documentation on training, testing and deployment. See below for quickstart examples.
 
-<details open>
+<details open>z
 <summary>Install</summary>
 
 Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a [**Python>=3.8.0**](https://www.python.org/) environment, including [**PyTorch>=1.8**](https://pytorch.org/get-started/locally/).
 
 ```bash
-git clone https://github.com/ultralytics/yolov5  # clone
+https://github.com/WANG683s/yolov5-master# clone
 cd yolov5
 pip install -r requirements.txt  # install
+这是第一次修改提交。。。
 ```
 
 </details>
 
-<details>
+<details open>
 <summary>Inference</summary>
 
 YOLOv5 [PyTorch Hub](https://docs.ultralytics.com/yolov5/tutorials/pytorch_hub_model_loading) inference. [Models](https://github.com/ultralytics/yolov5/tree/master/models) download automatically from the latest YOLOv5 [release](https://github.com/ultralytics/yolov5/releases).
@@ -43,7 +44,7 @@ results = model(img)
 results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
 ```
 
-</details>
+</details open>
 
 <details>
 <summary>Inference with detect.py</summary>
@@ -63,7 +64,7 @@ python detect.py --weights yolov5s.pt --source 0                               #
                                                'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
 ```
 
-</details>
+</details open>
 
 <details>
 <summary>Training</summary>
